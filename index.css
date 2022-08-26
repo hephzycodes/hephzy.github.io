@@ -1,0 +1,68 @@
+header {
+    background-color: peachpuff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+a {
+   font-size: 18px;
+   text-decoration: none;
+   padding: 8px;
+   margin-left: 25px;
+   color: purple;
+   background-color: aquamarine;
+}
+
+a:hover {
+    background-color: blue;
+    color:white;
+}
+
+span {
+    color: purple;
+}
+
+main {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.circle_div {
+    box-sizing: border-box;
+    border: 5px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.circle_div:hover {
+    border: 7px solid blue; 
+}
+
+footer {
+    background-color:peachpuff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
